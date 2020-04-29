@@ -12,7 +12,7 @@ $('form').on('submit', (event) => {
       method: 'POST',
       // url: 'https://68p50vw2v9.execute-api.ap-southeast-2.amazonaws.com/v1',
       // url: 'https://mvwrtxyuph.execute-api.ap-southeast-2.amazonaws.com',
-      url: 'https://tq4vw5c0tc.execute-api.ap-southeast-2.amazonaws.com/v1/pca/requestcert',
+      url: 'https://pob0rl0oc4.execute-api.ap-southeast-2.amazonaws.com/Prod/pca/requestcert',
       dataType: 'text',
       contentType: 'application/x-www-form-urlencoded',
       data: JSON.stringify(payload)
